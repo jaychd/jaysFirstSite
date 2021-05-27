@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #52616b;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 300%;
+}
+
+h2 {
+  color: #52616b;
+  font-size: 200%;
+}
+
+h3 {
+  color: #52616b;
+  font-size: 150%;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+hr{
+  border: 5px dotted #c9d6df;
+  border-bottom-style: none;
+  width: 2%;
+}
+a:hover{
+  color: white;
+}
+.topContainer {
+  background-color: #c9d6df;
+  position: relative;
+}
+
+.astronaut {
+  width: 150px;
+  margin: 100px auto;
+}
+
+.rocketship {
+  width: 100px;
+  height: auto;
+  position: relative;
+  right: 200px;
+}
+
+.moon {
+  width: 15%;
+  height: auto;
+  position: relative;
+  left: 350px;
+  top: 20px;
+}
+
+.middleContainer {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.profilePic {
+  margin: 20px auto;
+  border-radius: 50px
+}
+
+.whyContainer {
+  width: 60%;
+  margin:50px auto 100px;
+  line-height: 2;
+}
+.pcIcon{
+  float: left;
+  margin-right: 50px;
+  width: 20%;
+  display: block;
+}
+.whyParagraph{
+  text-align: left;
+}
+.videoGamesContainer{
+  position: relative;
+  width: 60%;
+  margin: 75px auto;
+  text-align: left;
+}
+.videoGames{
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+  padding-top: 3%;
+}
+.petsContainer{
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  position: relative;
+}
+.catPic{
+  width: 20%;
+  position: absolute;
+  right: 50px;
+}
+.puppyPic{
+  width: 20%;
+  position: relative;
+  left: 50px;
+}
+.footer{
+  background-color: #c9d6df;
+  padding: 100px;
+  position: relative;
+}
+.links{
+  margin: auto 20px;
+  text-decoration: none;
+}
+.footerNote{
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  padding-top: 50px;
+}
